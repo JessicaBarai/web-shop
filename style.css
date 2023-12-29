@@ -200,3 +200,69 @@ h1 {
 #feature .fe-box:nth-child(6) h6{
   background-color: #b2e7ed;
 }
+
+#product1{
+  text-align: center;
+}
+
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: absolute;
+}
+
+#product1 .pro:hover{
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.06);
+}
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+
+}
+
+#product1 .pro .des span{
+  color: #606060;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5{
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .pro .des h4{
+  padding-top: 7px;
+  color: #da0808;
+  font-size: 14px;
+}
+
+#product1 .pro .des i{
+  color: #b1bd36;
+  font-size: 20px;
+}
+#product1 .pro .cart::before{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  bottom: 20px;
+  position: absolute;
+  right: 10px;
+}
