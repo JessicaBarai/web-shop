@@ -64,6 +64,7 @@ h1 {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 #navbar{
@@ -215,7 +216,7 @@ h1 {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   margin: 15px 0;
   transition: 0.2s ease;
-  position: absolute;
+  position: relative;
 }
 
 #product1 .pro:hover{
@@ -253,7 +254,7 @@ h1 {
   color: #b1bd36;
   font-size: 20px;
 }
-#product1 .pro .cart::before{
+#product1 .pro .cart{
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -265,4 +266,20 @@ h1 {
   bottom: 20px;
   position: absolute;
   right: 10px;
+}
+
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(images/banner/b2.jpg);
 }
