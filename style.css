@@ -6,6 +6,7 @@
   font-family: "Spartan", sans-serif;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -67,13 +68,13 @@ h1 {
     z-index: 100;
 }
 
+
+
 #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
 
 
 
@@ -120,11 +121,15 @@ h1 {
     );
 }
 
+
 #mobile{
   display: none;
   align-items: center;
 }
 
+#close{
+  display: none;
+}
 #hero{
     background-image: url("images/hero4.png");
     height: 90vh;
@@ -543,9 +548,6 @@ footer .copyright{
 }
 
 
-
-
-
   @media (max-width:799px) {
     #navbar{
       display: flex;
@@ -571,12 +573,13 @@ footer .copyright{
       display: flex;
       align-items: center;
     } 
-    
     #navbar.active{
       right: 0px;
+      
     }
   
     #close{
+      display: initial;
       position: absolute;
       top: 30px;
       left: 30px;

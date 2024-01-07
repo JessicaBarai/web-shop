@@ -5,6 +5,7 @@ close = document.getElementById("close");
 if(bar){
     bar.addEventListener('click', () => {
         nav.classList.add('active');
+        close.classList.add('active');
     });
 }
 
